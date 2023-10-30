@@ -12,3 +12,12 @@ def subtractNumbers(number1, number2):
     provide two numbers, returns number 1 - number 2
     '''
     return number1 - number2
+
+## function that gathers all files in a folder together
+import glob
+def gatherFiles(path):
+    '''
+    provide path as string with file pattern (e.g. *.csv)
+    returns all target files in a list
+    '''
+    return glob.glob(path)

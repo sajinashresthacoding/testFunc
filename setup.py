@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='pip-package-demo', ##name of repo enclosing folder (pip-package-demo)
-    version='0.0.2',
+    name='testFunc', ##name of repo enclosing folder (pip-package-demo)
+    version='0.0.3',
     author='Sajina Shrestha', ## your name
     author_email='sajina.shrestha54@journalism.cuny.edu', ## your email
     description='math functions i use a lot', ## description of package
